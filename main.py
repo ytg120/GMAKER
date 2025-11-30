@@ -42,10 +42,6 @@ def new2():
     global td
     td = os.path.join(tp, tv)
     os.mkdir(td)
-# todo:
-# a. learn pygame
-# b. base gui system creation
-# c. executable program creation
 
 def new():
     global tn
@@ -82,3 +78,4 @@ menu1.add_command(label='Credit', command=credit)
 menubar.add_cascade(label='Edit', menu=menu1)
 root.config(menu=menubar)
 root.mainloop()
+
